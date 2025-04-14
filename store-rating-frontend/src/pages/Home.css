@@ -1,0 +1,19 @@
+
+.home-container {
+    background: url('https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .shadow-text {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+  

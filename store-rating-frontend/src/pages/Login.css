@@ -1,0 +1,27 @@
+
+.login-page {
+    height: 100vh;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+  }
+  
+  .login-box {
+    background: #fff;
+    color: #333;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login-box input {
+    height: 45px;
+    font-size: 16px;
+  }
+  
+  .login-box button {
+    height: 45px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,54 @@
+.dashboard-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f7f9fc, #e3e9f0);
+    padding: 3rem 1rem;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dashboard-controls input {
+    flex: 1;
+  }
+  
+  .card-store {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-store:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-store .card-title {
+    color: #212529;
+    font-weight: bold;
+  }
+  
+  .card-store .text-muted {
+    color: #6c757d;
+  }
+  
+  .card-store select {
+    margin-bottom: 0.5rem;
+  }
+  
+  .empty-message {
+    text-align: center;
+    color: #888;
+    margin-top: 2rem;
+  }
+  
