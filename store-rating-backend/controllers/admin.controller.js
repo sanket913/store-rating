@@ -105,3 +105,30 @@ exports.deleteUser = async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 };
+exports.deleteStore = async (req, res) => {
+  const { id } = req.params;
+  try {
+    await db.promise().query('DELETE FROM stores WHERE id = ?', [id]);
+    res.json({ message: 'Store deleted successfully' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
+
+// Update store
+exports.updateStore = async (req, res) => {
+  const { id } = req.params;
+  const { name, address, owner_id } = req.body;
+
+  try {
+    await db.promise().query(
+      'UPDATE stores SET name = ?, address = ?, owner_id = ? WHERE id = ?',
+      [name, address, owner_id, id]
+    );
+    res.json({ message: 'Store updated successfully' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
+  }
+};
