@@ -18,7 +18,7 @@ This is a web application that allows users to rate and review different stores.
 
 ### 🌐 Frontend
 - Bootstrap for styling
-- React.js *(if applicable)*
+- React.js
 
 ### 🔙 Backend
 - Node.js with Express.js *(or Flask if using Python)*
