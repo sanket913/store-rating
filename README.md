@@ -21,7 +21,7 @@ This is a web application that allows users to rate and review different stores.
 - React.js
 
 ### 🔙 Backend
-- Node.js with Express.js *(or Flask if using Python)*
+- Node.js with Express.js
 - MySQL for database
 
   
